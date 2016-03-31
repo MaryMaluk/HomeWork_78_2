@@ -1,0 +1,485 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	/*padding-left: 1.4em;*/
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+
+body {
+	font-family: "League Gothic", Arial, sans-serif;	
+}
+
+
+header {
+	 background: url(imgs/fon1.png) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+	
+}
+
+.menu__header {
+	    
+		font-size: 17px;
+}
+
+.menu__header  li {
+        display:inline-block;
+       
+        position:relative;
+        left: 40%;   /*смещение верхнего меню*/
+        margin: 12px 9px 5px 0px;
+		
+    }
+
+.menu__header  li a{
+	
+		 color: white;
+		 text-decoration: none;
+		 text-shadow: 2px 2px 4px black, 0 0 1px; /* Параметры тени */
+         color: white; /* Белый цвет текста */
+       
+	 }
+	 
+.menu__header  li  a:hover{
+	
+		 color: white;
+		 text-decoration: underline;
+		 text-shadow: 2px 2px 2px black, 0 0 1px; /* Параметры тени */
+         color: white; /* Белый цвет текста */
+		
+       
+	 } 
+
+	 
+	 #menu__dropp {
+		display: none; 
+		 
+	 }
+
+.main h2 {
+	font-size: 28px;
+	color: white;
+    margin-top: 9%;
+}
+.main h3 {
+	font-size: 19px;
+	color: #edbfff;
+}
+.main p {
+	margin-bottom: 15px;	
+}
+footer {
+	margin-top: 15px;
+	font-size: .8em;	
+	padding: 10px 10px 30px 10px;
+	background-color: black;
+	color: rgb(204,204,204);
+}
+footer a {
+	color: white;	
+}
+/* add tutorial styles below here */
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
+.columnWrapper {
+	float: left;
+	width: 80%;	
+	
+	
+}
+
+.contentWrapper {
+	overflow: hidden;
+	
+	background: url(imgs/grey.png) 0px 25px no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */	 
+	
+	margin-top: 0%;
+	
+}
+
+.main {
+  float: right;
+  width: 75%;
+  padding: 0px 20px;
+
+}
+
+.logoo {
+	margin-left: 23%;	
+}
+
+img.logo {
+	max-width: 11%;	
+}
+
+
+
+.articleText {
+	width: 45%;
+	margin-top: 1%;
+	font-size: 17px;
+	color: white; 
+	line-height: 20px;
+}
+
+footer {
+  clear: both;	
+}
+header h1, footer p, .contentWrapper {
+	/*max-width: 1200px;*/
+	margin: 0 auto;	
+}
+img {
+	max-width: 100%;	
+}
+img.half {
+	max-width: 25%;	
+}
+
+
+img.left {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+img.right {
+	
+	float: right;
+	margin: 0 10px 10px 0;
+}
+
+
+@media (min-width: 0px) and (max-width: 479px){
+	
+	.main {
+	  width: 219%;
+  }
+  
+ 
+img.right {
+	display: none;
+	
+}
+
+
+ .logoo {
+	margin-left: 46%;
+    margin-top: 0%;
+    width: 82%;             
+}
+img.logo {
+	max-width: 11%;	
+	margin-top: 12px;
+	margin-left: 9px;
+}
+
+ .menu__header li {
+	 
+	 display: none;
+ }
+.articleText {
+	display: none;
+}
+
+.main h2 {
+	
+	 font-size: 17px;
+	 margin-top: 11%;
+	 margin-left: 62%;
+	
+ }
+.main h3 {
+	
+	font-size: 8px;
+	margin-left: 31%;
+	position: absolute;
+    top: 17%;
+    left: 10%;
+}
+
+.main h2 {
+	
+	 font-size: 17px;
+	 margin-top: 11%;
+	 margin-left: 62%;
+	
+ }
+.contentWrapper {
+	background: none;
+	text-align: center;
+}
+.columnWrapper {
+	float: left;
+	width: 100%;	
+	
+	
+}
+	
+   #menu__dropp {
+        display:block;
+        position:absolute;
+        top: 8%;
+        left: 50%;
+        z-index: 10;		
+		line-height: 21px;
+        margin-left: -46px;
+        height: 22px;
+		text-decoration: underline;
+	
+    }
+
+    #menu__dropp ul, li {
+        list-style-type:none;
+    }
+	 
+	 #menu__dropp li a{
+		 color: #fff;
+		 text-decoration: none;
+		 padding-left: 40px;
+		 padding-right: 32px;
+		
+	 }
+
+    #menu__dropp li ul {
+        display:none;  
+    }
+     
+    #menu__dropp li:hover ul {
+        display: none; 	
+		
+    }
+
+#menu__dropp ul li:hover {
+    
+	display: none;
+	}
+
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+@media (min-width: 480px) and (max-width: 768px) {
+	 
+	 .main {
+	  width: 60%;
+  }
+  
+  img.half {
+	max-width: 25%;	  
+}
+
+img.right {
+	
+	float: right;
+	margin: 30px 28% 10px 0;
+}
+
+
+ .logoo {
+	margin-left: 46%;
+    margin-top: 0%;
+    width: 82%;             
+}
+img.logo {
+	max-width: 11%;	
+	margin-top: 12px;
+	margin-left: 9px;
+}
+
+ .menu__header li {
+	 
+	 display: none;
+ }
+.articleText {
+	display: none;
+}
+.main h3 {
+	
+	font-size: 8px;
+	margin-left: 9%;
+}
+.main h2 {
+	 font-size: 95%;
+	 margin-top: 15%;
+	 margin-left: 9%;
+ }
+.contentWrapper {
+	
+	
+	margin-top: 20px;
+ 
+}
+	
+    #menu__dropp {
+        display:block;
+        position:absolute;
+        top: 10%;
+        left: 50%;
+		/*width: 121px;*/
+        z-index: 10;		
+       /* background: #483b4e;*/
+	   background-color: rgba(72, 59, 78, 0.6);
+		line-height: 21px;
+        margin-left: -46px;
+        height: 22px;
+	    border-top: 1px solid #332836;
+		text-decoration: underline;
+	
+    }
+	
+
+    #menu__dropp li {
+        display:inline-block;
+        height:22px;
+        position:relative;
+        border-bottom: 1px solid #332836;
+		border-left: 1px solid #332836;
+		border-right: 1px solid #332836;
+		border-collapse: collapse;
+	    border-radius: 0px 0px 0px 0px;
+		 background-color: rgba(72, 59, 78, 0.6);
+		
+    }
+	
+    #menu__dropp ul, li {
+        margin:0;
+        padding:0;
+        list-style-type:none; 
+ 
+    
+    }
+	 
+	 #menu__dropp li a{
+		 color: #fff;
+		 text-decoration: none;
+		 padding-left: 40px;
+		 padding-right: 32px;
+		
+	 }
+	#menu__dropp li ul li{
+		 width: 100%;	
+	 } 
+
+    #menu__dropp li ul {
+        position:absolute;
+		color: #fff;
+		/*background-color: rgba(48, 3b, 4e, 0.5);*/
+		/*background: rgba(48, 3b, 4e, 0.75);*/
+        top:22px;
+        display:none;  
+        text-decoration: none;	
+    }
+     
+    #menu__dropp li:hover ul {
+        display:block; 	
+		
+    }
+
+#menu__dropp ul li:hover {
+    /* background: #332836;*/
+	background-color: rgba(33, 28, 36, 0.7);
+	color: #ffffff;
+	border-bottom: 1px solid pink;
+	}
+
+
+
+
+}
+
+@media (min-width: 769px) and (max-width: 960px) {
+  
+  .main {
+	  width: 60%;
+  }
+  
+  .contentWrapper {
+	
+	margin-top: 20px;
+  }	
+	
+  img.half {
+	max-width: 30%;	
+}
+
+img.right {
+	
+	float: right;
+	margin: 16px 60px 10px 0;
+}
+img.logo {
+	max-width: 11%;	
+	margin-top: -1px;
+
+}
+
+ .logoo {
+	margin-left: 34%;
+    margin-top: -1%;	
+}
+
+.menu__header {
+    font-size: 12px;
+	margin-left: 4%;
+}
+ .menu__header li {
+	 left: 31%;
+	 top: 44px;
+ }
+.articleText {
+	font-size: 11px;
+	line-height: 13px;
+}
+.main h3 {
+	
+	font-size: 12px;
+}
+.main h2 {
+	 font-size: 22px;
+	 margin-top: 60px;
+ }
+ #menu__dropp {
+		position:absolute;
+	left:-9999px; 
+}
